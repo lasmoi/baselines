@@ -106,7 +106,7 @@ def train(env, nb_epochs, nb_epoch_cycles, render_eval, reward_scale, render, pa
                         agent.reset()
                         obs = env.reset()
 
-                        if episodes >= 500:
+                        if episodes >= 1000:
                             print (a)
 
                 # Train.
